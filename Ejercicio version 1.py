@@ -42,14 +42,14 @@ class Sistema:
     def verNumeroPacientes(self):
         print("En el sistema hay: " + str(len(self.__lista_pacientes)) + "pacientes")
         return self.__numero_pacientes
-    
-   
-            
-
+               
 def main():
     sis=Sistema()
     while True:
-        op= int(input("Ingrese:  1.Ingresar paciente , 2.Ver paciente, 3.Salir:  "))
+        op= int(input('''Ingrese:  
+                            1.Ingresar paciente.
+                            2.Ver paciente
+                            3.Salir:  '''))
         if op == 1:
             print("A continuación se solicitan los datos: ")
             nombre= input("Ingrese nombre: ")
@@ -80,8 +80,4 @@ def main():
         elif op== 3:
             break
 
-main()
 
-print(class)
-print('hola mundo')
-print('hola vida')
