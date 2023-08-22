@@ -79,5 +79,7 @@ def main():
             continue
         elif op== 3:
             break
+print('hi')
+main()
 
 
